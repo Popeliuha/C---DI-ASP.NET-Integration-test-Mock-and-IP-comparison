@@ -1,0 +1,11 @@
+@DeliveryServiceAPI_HostAddress = http://localhost:5271
+
+GET {{DeliveryServiceAPI_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{DeliveryServiceAPI_HostAddress}}/todos/1
+Accept: application/json
+
+###
